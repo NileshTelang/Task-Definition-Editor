@@ -77,4 +77,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
 - [Joi](https://joi.dev/) - Object schema validation for JavaScript.
-```
