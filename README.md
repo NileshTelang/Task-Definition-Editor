@@ -25,12 +25,13 @@ The Task Definition Editor is a web-based tool that allows users to create, edit
    ```
 
 2. Navigate to the project directory:
-  A : 
+   
+   A : 
    ```bash
    cd task-definition-editor
    cd frontend
    ```
-  B : 
+   B : 
    ```bash
    cd task-definition-editor
    cd backend
