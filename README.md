@@ -31,7 +31,7 @@ The Task Definition Editor is a web-based tool that allows users to create, edit
    cd frontend
    ```
   B : 
-    ```bash
+   ```bash
    cd task-definition-editor
    cd backend
    ```
