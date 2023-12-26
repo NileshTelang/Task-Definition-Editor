@@ -1,0 +1,59 @@
+{
+  "data": {
+    "Name": "n"
+  },
+  "schema": {
+    "type": "object",
+    "properties": {
+      "Name": {
+        "type": "string"
+      },
+      "Age": {
+        "type": "number",
+        "visibilityOptions": {
+          "field": "Name",
+          "operator": "==",
+          "value": "n"
+        }
+      }
+    },
+    "additionalProperties": true,
+    "required": [
+      "Name",
+      "Age"
+    ]
+  },
+  "uischema": {
+    "type": "VerticalLayout",
+    "elements": [
+      {
+        "type": "Control",
+        "label": "Name",
+        "scope": "#/properties/Name",
+        "options": {
+          "isRequired": true,
+          "readonly": false
+        }
+      },
+      {
+        "type": "Control",
+        "label": "Age",
+        "scope": "#/properties/Age",
+        "options": {
+          "isRequired": true,
+          "readonly": false
+        },
+        "rule": {
+          "effect": "SHOW",
+          "condition": {
+            "scope": "#/properties/Name",
+            "schema": {
+              "type": "string",
+              "const": "n"
+            }
+          }
+        }
+      }
+    ]
+  }
+}
